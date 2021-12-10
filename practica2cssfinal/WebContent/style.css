@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.centro {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightblue;
+	box-sizing: content-box;
+	height: 90px;
+	align-items: center;
+	
+}
+
+.i {
+	width: 200px;
+	height: 150px;
+}
+
+.centro2 {
+	text-align: center;
+}
+
+.borde {
+	text-align: center;
+	padding: 10px 10px;
+}
+
+.i2 {
+	width: 1100px;
+	height: 600px;
+}
+
+.imagen {
+	background-image: url("valencia_antigua.jpg");
+	color: blue;
+	box-sizing: content-box;
+	width: 1000px;
+	height: 300px;
+}
+
+span:hover {
+	background-color: lightblue;
+	color: black;
+}
+
+img:hover {
+	opacity: 0.5;
+}
+
+.azul {
+	border: blue 12px solid;
+}
+
+div {
+	background-color: lightblue;
+	text-align: center;
+}
+
+img.opacidad {
+	opacity: 1.0;
+}
+
+.izquierda {
+	position: relative;
+	left: -150px;
+}
